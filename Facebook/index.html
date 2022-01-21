@@ -1,0 +1,47 @@
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - entre ou cadastre-se</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icon.png" >
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="Facebook">
+            <h2>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida. </h2>
+        </div>
+        <div>
+            <form>
+                <input placeholder="Email ou telefone" type="email">
+                <input placeholder="Senha" type="password">
+                <button class="entrar">Entrar</button>
+                <a href="#">Esqueceu a senha?</a>
+                <button class="criar-conta">Criar nova conta</button>
+            </form>
+            <p>
+                <a href="#"> Criar uma Página</a> para uma celebridade, uma marca ou uma empresa.
+            </p>
+        </div>
+    </div>
+
+
+    <footer> Meta ©  <span id="year">  </span> </footer>
+
+
+        <script>
+
+            const  year = document.getElementById('year');
+            const  actualDate = new Date();
+
+            year.innerHTML = actualDate.getFullYear();
+
+        </script>
+
+
+</body>
+
+</html>
